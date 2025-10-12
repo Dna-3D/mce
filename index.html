@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Oscar! - Mechatronics Engineering</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Mechatronics Engineering</div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="announcements.html">Announcements</a></li>
+            <li><a href="timetable.html">Timetable</a></li>
+            <li><a href="notes.html">Notes</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+            <span class="sun-icon">☀️</span>
+            <span class="moon-icon">🌙</span>
+        </button>
+    </nav>
+
+    <div class="birthday-hero">
+        <canvas id="confetti-canvas"></canvas>
+        <div class="birthday-content">
+            <!-- Birthday celebrant image container for better readability -->
+            <div class="birthday-image-container">
+                <img src="./scar.jpeg"
+                     alt="Nkembuofor Oscar Somtochuckwu - Birthday Celebrant"
+                     class="birthday-image"
+                     loading="lazy"
+                     decoding="async"
+                     width="300"
+                     height="400"
+                     onerror="this.src='fallback.jpg'; this.alt='Image not available';">
+            </div>
+            <h1 class="birthday-title">Happy Birthday</h1>
+            <h2 class="birthday-name">Nkembuofor Oscar Somtochuckwu</h2>
+            <div class="birthday-emoji">🎉🎂🎈</div>
+        </div>
+    </div>
+
+    <section class="wishes-section">
+        <h2 class="section-title">Birthday Wishes from Your Coursemates</h2>
+        <div class="wishes-container" id="wishes-container">
+        </div>
+    </section>
+
+    <section class="videos-section">
+        <h2 class="section-title">Video Messages</h2>
+        <div class="videos-container" id="videos-container">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Department of Mechatronics Engineering FUTO</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

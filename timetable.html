@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable - Mechatronics Engineering</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Mechatronics Engineering</div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="announcements.html">Announcements</a></li>
+            <li><a href="timetable.html" class="active">Timetable</a></li>
+            <li><a href="notes.html">Notes</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+            <span class="sun-icon">☀️</span>
+            <span class="moon-icon">🌙</span>
+        </button>
+    </nav>
+
+    <div class="page-container">
+        <h1 class="page-title">Class Timetable</h1>
+        
+        <div class="timetable-wrapper">
+            <table class="timetable">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="time-slot">8:00 - 9:00 AM</td>
+                        <td class="class-cell">
+                            <div class="class-name">Robotics</div>
+                            <div class="class-room">Hall of Mercy</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">Control Systems</div>
+                            <div class="class-room">MCE LH1</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">Embedded Systems</div>
+                            <div class="class-room">500 caps</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">Sensors & Actuators</div>
+                            <div class="class-room">Hall of Mercy</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">Signal Processing</div>
+                            <div class="class-room">Hall C</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time-slot">9:00 - 10:00 AM</td>
+                        <td class="class-cell">
+                            <div class="class-name">Mechanical Design</div>
+                            <div class="class-room">MCE LH1</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">Microcontrollers</div>
+                            <div class="class-room">Lab 2</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">Control Systems</div>
+                            <div class="class-room">Hall of Mercy</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">Robotics Lab</div>
+                            <div class="class-room">500 caps</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">Industrial Automation</div>
+                            <div class="class-room">MCE LH1</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time-slot">10:00 - 11:00 AM</td>
+                        <td class="class-cell break">Break</td>
+                        <td class="class-cell break">Break</td>
+                        <td class="class-cell break">Break</td>
+                        <td class="class-cell break">Break</td>
+                        <td class="class-cell break">Break</td>
+                    </tr>
+                    <tr>
+                        <td class="time-slot">11:00 - 12:00 PM</td>
+                        <td class="class-cell">
+                            <div class="class-name">CAD/CAM</div>
+                            <div class="class-room">Lab 3</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">PLC Programming</div>
+                            <div class="class-room">Lab 2</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">Robotics</div>
+                            <div class="class-room">Hall of Mercy</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">Power Electronics</div>
+                            <div class="class-room">Hall C</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">Project Work</div>
+                            <div class="class-room">500 caps</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time-slot">12:00 - 1:00 PM</td>
+                        <td class="class-cell">
+                            <div class="class-name">Embedded Systems</div>
+                            <div class="class-room">MCE LH1</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">Sensors & Actuators</div>
+                            <div class="class-room">Hall of Mercy</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">Mechanical Design</div>
+                            <div class="class-room">Hall C</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">Signal Processing</div>
+                            <div class="class-room">MCE LH1</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">Project Work</div>
+                            <div class="class-room">500 caps</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time-slot">1:00 - 2:00 PM</td>
+                        <td class="class-cell lunch">Lunch Break</td>
+                        <td class="class-cell lunch">Lunch Break</td>
+                        <td class="class-cell lunch">Lunch Break</td>
+                        <td class="class-cell lunch">Lunch Break</td>
+                        <td class="class-cell lunch">Lunch Break</td>
+                    </tr>
+                    <tr>
+                        <td class="time-slot">2:00 - 3:00 PM</td>
+                        <td class="class-cell">
+                            <div class="class-name">PLC Lab</div>
+                            <div class="class-room">Lab 2</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">Industrial Automation</div>
+                            <div class="class-room">Hall of Mercy</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">CAD/CAM Lab</div>
+                            <div class="class-room">Lab 3</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">Robotics Lab</div>
+                            <div class="class-room">500 caps</div>
+                        </td>
+                        <td class="class-cell empty"></td>
+                    </tr>
+                    <tr>
+                        <td class="time-slot">3:00 - 4:00 PM</td>
+                        <td class="class-cell">
+                            <div class="class-name">Power Electronics</div>
+                            <div class="class-room">MCE LH1</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">Microcontrollers Lab</div>
+                            <div class="class-room">Lab 2</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">Seminar</div>
+                            <div class="class-room">Hall of Mercy</div>
+                        </td>
+                        <td class="class-cell">
+                            <div class="class-name">Control Systems Lab</div>
+                            <div class="class-room">500 caps</div>
+                        </td>
+                        <td class="class-cell empty"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Department of Mechatronics Engineering</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
