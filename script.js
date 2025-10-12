@@ -21,7 +21,7 @@ const studentWishes = [
     { name: "Big ben", message: "Happy birthday! wishing you a wonderful day and fantastic year ahead, thanks for being an amazing course rep! 🎂" },
     { name: "Chidi Anyanwu", message: "Happy birthday Oscar! Keep shining bright! ✨" },
     { name: "Dickson Petrus", message: "Oscar, have the most wonderful birthday celebration! You deserve it! 🎈" },
-    { name: "Tobenna", message: "Happy birthday to our mechatronics star! Have a blast! 🚀" },
+    { name: "Tobenna", message: "Happy birthday to you Oscar fx, wishing you all the best in life and pray that you're always surrounded by positive energy. Enjoy your day EURUSD lord 💙 🚀" },
     { name: "kc Bryan", message: "Wishing you joy, success, and happiness on your birthday Oscar! 🎊" },
     { name: "Marcus", message: "Happy birthday Oscar! Benz very soon! 😄" },
     { name: "Immaculate", message: "Oscar! Have an unforgettable birthday celebration! 🥳" },
