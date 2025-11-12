@@ -1,9 +1,9 @@
 const studentWishes = [
-    { name: "Tall boy Evans", message: "Happy birthday! Wishing you an amazing year ahead filled with success and joy! 🎉" },
-    { name: "Bright", message: "Your efforts are highly appreciated! all youve done, seen & unseen thank you 🎉" },
-     { name: "Dna", message: "Happy birthday to Golden! May God grant your secret desires, the sky is your starting point. 🎉" },
-    { name: "Henry Nwaogbe", message: "Happy birthday thank you  🎉" },
-  { name: "DNA", message: "You dey go na, we never try?!" },
+    { name: "Godslove", message: "Happy birthday! Wishing you an amazing year ahead filled with success and joy! 🎉" },
+    { name: "Stephanie", message: "Happy birthday 🎉" },
+     { name: "Kato", message: "Happy birthday to Golden!. 🎉" },
+    { name: "Henry Nwaogbe", message: "Happy birthday michael  🎉" },
+  { name: "DNA", message: "Happy Birthday...more assignment deals😂!" },
 ];
 
 const birthdayVideos = [
